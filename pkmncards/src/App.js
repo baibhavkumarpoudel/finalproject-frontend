@@ -5,7 +5,7 @@ import {Link, Route} from "react-router-dom";
 import Home from "./components/Home";
 import Login from "./components/Login";
 import SignUp from "./components/SignUp";
-
+import Pcards from './components/Pcards';
 
 function App() {
   return (
@@ -17,6 +17,8 @@ function App() {
       <Route path="/login" render={(props) => <Login {...props} /> } />
 
       <Route path="/signup" render={(props) => <SignUp {...props}/> } />
+
+      <Route path="/pcards" exact render={() => <Pcards /> } />
     </div>
   );
 }
