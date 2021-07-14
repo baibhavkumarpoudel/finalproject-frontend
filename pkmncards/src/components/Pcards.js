@@ -16,6 +16,7 @@ componentDidMount = () => {
     axios.get("http://localhost:3001/pcards/pcards")
     .then(response => {
         this.setState({
+            
             pcards: response.data
         })
     })
@@ -38,6 +39,7 @@ render() {
                         <div>
                             <Link to={`/pcards/${pcard.id}`}>
                                 <h2>{pcard.name}</h2>
+                                
                                 <img src={pcard.img} alt="pokemon" />
                                 <h2>{pcard.history}</h2>
                                 <h2>{pcard.dateOfRelease}</h2>  

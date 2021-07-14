@@ -4,16 +4,17 @@ import Pcards from "./Pcards"
 
 const Home = () => {
     return (
-        <div>
+        <div className="home">
             
-        <div>
-            <h1> Gotta Collect Them All! </h1>
+        <div className = "logo">
+           
 
         </div>
         <div>
-            <Link to="/login"><h1>Login!</h1></Link>
-            <Link to="/signup"><h1>Sign up!</h1></Link>
-            <Link to="/pcards"><h3>Check out Pokemon Collection!</h3></Link>
+       
+            <Link className="login" to="/login"><h1>Login!</h1></Link>
+            <Link className="login" to="/signup"><h1>Sign up!</h1></Link>
+            
         </div>
         </div>
     )

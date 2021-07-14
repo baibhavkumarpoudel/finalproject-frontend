@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import axios from "axios";
-
+import poke from '../images/poke.gif'
 
 class Login extends Component {
     constructor(props) {
@@ -37,28 +37,29 @@ class Login extends Component {
 
     render() {
         return (
-            <div>
+            <div className="Login-page">
                 
                 <div>
                     <nav>
-                        <Link to="/">Homepage</Link>
+                        
+                        <Link className="return" to="/">Click Me To Return Back Home</Link>
                     </nav>
                 </div>
                 
-                <h1>Login Page</h1>
+                <h1 className="header">Please Enter Your Credentials Below To View Your Pokemon Cards</h1>
 
                 <div>
 
                     <form onSubmit={this.handleSubmit}>
-                        <fieldset>
+                        <div className="LoginBox">
                             <legend>Login!</legend><br></br>
                             <label htmlFor="username">Username: </label><input onChange={this.handleChange} type="text" name="username" placeholder="username" /> <br></br>
                             <label htmlFor="password">Password: </label><input onChange={this.handleChange} type="password" name="password" placeholder="password" /><br></br><br></br>
                             <input type="submit" value="Login" />
-                        </fieldset>
+                        </div>
 
                     </form>
-
+                    <img className="gif" src={poke} alt="gif" />
                 </div>
 
             </div >
