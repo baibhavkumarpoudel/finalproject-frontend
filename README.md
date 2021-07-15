@@ -1,12 +1,13 @@
 # finalproject-frontend
 
-# Link to backend GitHub 
+# Link to frontend GitHub 
 
 - https://baibhavkumarpoudel.github.io/finalproject-frontend/
 
 
 # Snapshot of the app
 
+<img src="https://github.com/baibhavkumarpoudel/finalproject-frontend/blob/main/pkmncards/snapshot.PNG" style="width: 800px;"/>
 
 # App Name - Pokemon Card Collection
 
