@@ -8,6 +8,7 @@ import SignUp from "./components/SignUp";
 import Pcards from './components/Pcards';
 import UserProfile from "./components/UserProfile";
 import PkmnCard from './components/PkmnCard';
+import Chart from './components/Chart';
 
 function App() {
   return (
@@ -25,6 +26,9 @@ function App() {
       <Route path="/profile/:id" render={(props) => <UserProfile {...props}/> } />
 
       <Route path="/pcards/:id" render={(props) => <PkmnCard {...props} /> } />
+
+      <Route path="/charts" exact render={() => <Chart  /> } />
+
     </div>
   );
 }
