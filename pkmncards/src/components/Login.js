@@ -46,7 +46,7 @@ class Login extends Component {
                     </nav>
                 </div>
                 
-                <h1 className="header">Please Enter Your Credentials Below To View Your Pokemon Cards</h1>
+                <h1 className="header">Please Enter Your Credentials Below To View Your Pokémon Cards</h1>
 
                 <div>
 

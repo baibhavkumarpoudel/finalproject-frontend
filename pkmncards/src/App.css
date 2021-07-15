@@ -162,3 +162,24 @@
   height: 30%;
   width: 10%;
 }
+
+
+.graph{
+
+  font-size: 70%;
+}
+
+
+.yellow{
+  Border: 2px groove black;
+  color:yellow;
+  background-color: rgb(53, 49, 49);
+  padding: 3px;
+}
+
+.white{
+  Border: 2px groove black;
+  color:white;
+  background-color: rgb(53, 49, 49);
+  padding: 3px;
+}

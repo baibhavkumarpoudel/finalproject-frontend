@@ -82,8 +82,8 @@ render() {
                     <h2>  <label htmlFor="password">Password: </label>{user.password}</h2> <br></br>
                     <img  src={user.img} />
                     <h2>  <label htmlFor="bio"></label>{user.bio}</h2> <br></br>
-                    <Link className="poke-card" to="/pcards"><h3> Click Here For Your Pokemon Card Collections</h3></Link> <br></br>
-                    <Link className="poke-card" to="/charts"><h3>Click Here to View Pokemon Card Prices in Bar Graph!</h3></Link>
+                    <Link className="poke-card" to="/pcards"><h3> Click Here For Your Pokémon Card Collections</h3></Link> <br></br>
+                    <Link className="poke-card" to="/charts"><h3>Click Here to View Pokémon Card Prices in Bar Graph!</h3></Link>
                 </form>
                 <div className="edit">
                     <EditProfile

@@ -40,3 +40,17 @@
 
 - Cors
 - D3 labeling data 
+
+# Cool resources!
+
+- D3 
+    - https://blog.logrocket.com/data-visualization-in-react-using-react-d3-c35835af16d0/#addinglabelstoabarchart
+
+- Pokemon Cards!
+    - https://www.pokemon.com/us/pokemon-tcg/
+
+- Kanto Pokédex
+    - https://pokemon.fandom.com/wiki/Kanto_Pok%C3%A9dex
+
+- Pokemon Base Set Prices
+    - https://shop.tcgplayer.com/price-guide/pokemon/base-set

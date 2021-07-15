@@ -46,7 +46,7 @@ class SignUp extends Component {
 
                 </div>
                         
-                <h1 className="header">Sign Up To View Your Pokemon Cards ! ! !</h1>
+                <h1 className="header">Sign Up To View Your Pokémon Cards ! ! !</h1>
 
                 <div>
                     <form  onSubmit={this.handleSubmit}>

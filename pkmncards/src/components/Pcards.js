@@ -28,7 +28,7 @@ render() {
         <div className="pcards">
             
             
-            <h1 className="here">Here are Pokemon Cards!</h1>
+            <h1 className="here">Here are Pokémon Cards!</h1>
 
             <div>
 

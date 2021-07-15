@@ -34,7 +34,7 @@ componentDidMount = () => {
             <div className="pkmncard">
               
                         
-                <h1 className="here">Who's That Pokemon ?!?</h1>
+                <h1 className="here">Who's That Pokémon ?!?</h1>
 
                 <div className="pcard-indi">
                     <h1>{pcard.name}</h1>  
