@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import axios from "axios";
-
+import char from '../images/char.gif'
 
 class PkmnCard extends Component {
     constructor(props) {
@@ -31,20 +31,18 @@ componentDidMount = () => {
        
         const pcard = this.state.pcard
         return (
-            <div>
-                <div>
-                    <Link to="/">Go Home</Link>
-                </div>
+            <div className="pkmncard">
+              
                         
-                <h1 >Who's That Pokemon!</h1>
+                <h1 className="here">Who's That Pokemon ?!?</h1>
 
-                <div>
+                <div className="pcard-indi">
                     <h1>{pcard.name}</h1>  
                     <h2>{pcard.history}</h2> 
                     <img  src={pcard.img} alt="pokemon pic"/>
                     <h2>{pcard.dateOfRelease}</h2>
                 </div>
-                
+                <img className="char" src={char} alt="gif" />
             </div>
         )
     }

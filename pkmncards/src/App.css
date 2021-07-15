@@ -125,3 +125,40 @@
     Border: 5px groove white;
 
 }
+
+.here{
+  color: black;
+  background-color: yellow;
+}
+
+.pcards{
+  background-color: rgb(46, 41, 41);
+}
+
+.pcards-render{
+  text-decoration: none;
+  color:yellow;
+  
+}
+
+.line{
+  color: white;
+}
+
+.pkmncard{
+  background-image: url('../src/images/pcard.jpg'); 
+  background-position:center;
+  background-size:cover;
+  height: 98vh;
+}
+
+.pcard-indi{
+  color:white;
+  padding-right: 25%;
+}
+
+.char{
+  padding-right: 75%;
+  height: 30%;
+  width: 10%;
+}

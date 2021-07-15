@@ -12,7 +12,7 @@ class Chart extends Component {
 
     componentDidMount () {
 
-    const data = [60,16,37,25,32,10,40];
+    const data = [60,16,37,25,32,10,40,2,2,2,2,2,2];
 
     const w = 500;
     const h = 400;

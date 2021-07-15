@@ -25,24 +25,23 @@ componentDidMount = () => {
 render() {
     
     return (
-        <div>
-            <div>
-                <Link to="/">Home Menu</Link>
-            </div>
+        <div className="pcards">
             
-            <h1>Here are Pokemon Cards!</h1>
+            
+            <h1 className="here">Here are Pokemon Cards!</h1>
 
             <div>
 
                 {this.state.pcards.map(pcard => {
                     return (
-                        <div>
-                            <Link to={`/pcards/${pcard.id}`}>
+                        <div >
+                            <Link className="pcards-render" to={`/pcards/${pcard.id}`}>
                                 <h2>{pcard.name}</h2>
-                                
                                 <img src={pcard.img} alt="pokemon" />
                                 <h2>{pcard.history}</h2>
-                                <h2>{pcard.dateOfRelease}</h2>  
+                                <h2>Date of Release: {pcard.dateOfRelease}</h2>  
+                                <h2 className="line">---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                </h2>
                             </Link>
                            
                         </div>
